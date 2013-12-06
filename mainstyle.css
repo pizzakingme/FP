@@ -1,0 +1,40 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic, 400, 700");
+
+* {
+	font-family: "Open Sans", arial, sans-serif;
+}
+
+body {
+	/*plz write me*/
+}
+
+p{
+	font-size: 12pt;
+}
+
+h1{
+	font-weight: normal;
+}
+
+footer {
+	width: 99%;
+	font-size: 11pt;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+}
+
+input {
+	background-color: white;
+	background-image: none;
+	border-radius: 8px;
+}
+
+a:link {
+	color: #06F;
+}
+
+a:visited{
+	color: #09F;
+}
+
