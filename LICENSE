@@ -173,6 +173,7 @@ Apache License
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
+<<<<<<< HEAD
    END OF TERMS AND CONDITIONS
 
    APPENDIX: How to apply the Apache License to your work.
@@ -187,6 +188,9 @@ Apache License
       identification within third-party archives.
 
    Copyright {yyyy} {name of copyright owner}
+=======
+   Copyright 2014 Judah Levy and Zan Xu
+>>>>>>> 8102b42b6f1833c8ca018823d5d3f195b5414cc8
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
