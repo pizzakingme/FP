@@ -5,11 +5,15 @@
       type="image/png" 
       href="favicon.png">
 
+<<<<<<< HEAD
 <link rel="stylesheet" href="mainstyle.css">
     <link rel="stylesheet" href="homestyle.css">
 
+=======
 <link rel="stylesheet" href="mainstyle.css">
     <link rel="stylesheet" href="homestyle.css">
+
+>>>>>>> 8102b42b6f1833c8ca018823d5d3f195b5414cc8
 
 
 
@@ -18,6 +22,7 @@
     <div class="css3gradient">
     <h1>About us</h1>
     <p>
+<<<<<<< HEAD
       <pre>&#9;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse erat nisi, gravida a laoreet sed,
  sodales quis massa. Phasellus  ipsum at libero cursus, quis lacinia odio placerat. Morbi rutrum urna dui, eu
  commodo eros vulputate. Curabitur et justo a mi ullamcorper cursus sed a purus. Pellentesque turpis lorem,
@@ -38,6 +43,7 @@
   
 </footer>
 </html>
+=======
       &nbsp;&nbsp;&nbsp;&nbsp;I am Zan, a 13 year old in Ms. Wu's 8th Grade Magnet CS class. I am far superior to Judah Levy, my miserable underling. I also have loads of humility to boot. I have won 13 Nobel Prizes and 4 Millennium Prizes. I walk to me moon daily for exercise. Zan made all the pretty parts of this project, Levy made the ugly ones. I use the 1960 Somalian Constitution as filler text.
     </p>
   </body>
@@ -54,3 +60,4 @@
   
 </footer>
 </html>
+>>>>>>> 8102b42b6f1833c8ca018823d5d3f195b5414cc8

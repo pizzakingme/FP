@@ -4,6 +4,7 @@
     <link rel="icon" 
       type="image/png" 
       href="favicon.png">
+<<<<<<< HEAD
     <link rel="stylesheet" href="mainstyle.css">
 
     <link rel="stylesheet" href="homestyle.css">
@@ -12,6 +13,7 @@
   </head>
   <body>
     <h1>About us</h1>
+=======
     <link rel="stylesheet" href="mainstyle.css">
     <link rel="stylesheet" href="homestyle.css">
 
@@ -19,11 +21,13 @@
   </head>
   <body>
     <h1>About Judah Levy</h1>
+>>>>>>> 8102b42b6f1833c8ca018823d5d3f195b5414cc8
     <p>
       <img style=float:left border="10" src="nyanCat.gif" alt="Lovable cats" width="250" height="150">
       &nbsp;&nbsp;&nbsp;&nbsp;&nbspI am a very interesting person... sort of. I have done a little bit of work with HTML and <a href="http:\\python.org" target="_blank">Python</a>, but my programming experience is fairly limited. This is my first complete website, and I am very excited to see what I can do with it. I am an avid linux user, and my choice OS would be either <a href="http:\\debian.org" target="_blank">Debian</a> or <a href="http:\\ubuntu.com" target="_blank">Ubuntu</a>. I also openly and completely support the <a href="http:\\opensource.org" target="_blank">Open Sourced Initiative</a>. I enjoy mid-2000's games, and certain other times too.
     </p>
   </body>
+<<<<<<< HEAD
   
 
 <footer>
@@ -35,6 +39,8 @@
 
      <a href="sitemap.html">Sitemap</a>
   
+=======
+  
 
 <footer>
 
@@ -44,5 +50,7 @@
      <a href="index.html">About Craig's Map</a>
 
      <a href="sitemap.html">Sitemap</a>
+  
+>>>>>>> 8102b42b6f1833c8ca018823d5d3f195b5414cc8
 </footer>
 </html>

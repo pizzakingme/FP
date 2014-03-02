@@ -13,7 +13,7 @@ else:
     CITY_NAME=input("City name: ")
 
 
-for x in range(25):
+for x in range(1):
     print(x)
     mainsite = urllib.urlopen("http://"+CITY_NAME+".craigslist.org/sss/index"+str(x)+'00.html')
     soup = bs4.BeautifulSoup(mainsite)
