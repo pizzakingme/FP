@@ -41,7 +41,6 @@ for x in range(25):
                     subsite = urllib.urlopen("http://"+CITY_NAME+".craigslist.org/"+link['href'])
                     subsoup = bs4.BeautifulSoup(subsite)
                     sublinks = list(subsoup.find_all('div'))
-                    sublinks2 = list(subsoup.find_all('section'))
                     for sublink in sublinks:
                         print(".o.", end="")
                         try:
@@ -49,12 +48,6 @@ for x in range(25):
                                 print("Success", end=" ")
                                 lat, lon = sublink['data-latitude'], sublink['data-longitude']
                                 continue
-                        except:
-                            pass
-                    for sublink in sublinks2:
-                        try:
-                            if sublink['id'] == "postingbody":
-                                body = sublink.string
                         except:
                             pass
                 except:
