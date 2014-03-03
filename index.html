@@ -5,8 +5,7 @@
 	<title>Craig's map </title>
 
 	<link rel="stylesheet" href="mainstyle.css">
-    <link rel="stylesheet" href="homestyle.css">
-
+    <link rel="stylesheet" href="homestyle">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Zan Xu, Judah levy">
 	<meta name="description" content="A location based Craigslist searcher.">
@@ -21,7 +20,7 @@
 <body>
 
 <div>
-    <form action="fallbacks/graydient.jpg" id="searchbox">
+    <form action="/cgi-bin/prac.cgi" id="searchbox">
     	<h1>Craig's Map</h1>
         <input id="searchbar" type="text" value=" Search Craigslist" onfocus="if (this.value == ' Search Craigslist') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Search Craigslist';}">
         <input type="submit" name="go" value="  Go!  " />
@@ -32,7 +31,7 @@
 <a href="about/xu.html">About Zan</a>
 <a href="about/levy.html">About Judah</a>
 <a href="about/index.html">About Craig's Map</a>
-<a href="sitemap.html">Sitemap</a>
+<a href="cgi-bin/prac.cgi">Search Hard-Link</a>
 </footer>
 
 </body>

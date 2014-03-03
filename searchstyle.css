@@ -1,0 +1,6 @@
+body {
+	background: #efefef url("../resources/graydient.jpg") repeat center;
+	background: -webkit-radial-gradient(circle, #efefef, #808080);
+    background: radial-gradient(circle, #efefef, #808080);
+}
+
