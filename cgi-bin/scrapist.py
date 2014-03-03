@@ -2,7 +2,6 @@
 
 import timeit
 
-print(timeit.timeit("""
 import bs4, csv, sys
 import urllib.request as urllib
 
@@ -40,7 +39,6 @@ for x in range(25):
                 lat, lon = 0, 0
                 try:
                     subsite = urllib.urlopen("http://"+CITY_NAME+".craigslist.org/"+link['href'])
-                    place=["No", "No"]
                     subsoup = bs4.BeautifulSoup(subsite)
                     sublinks = list(subsoup.find_all('div'))
                     for sublink in sublinks:
@@ -54,9 +52,9 @@ for x in range(25):
                             pass
                 except:
                     pass
-                goodStuff.append(["http://"+CITY_NAME+".craigslist.org"+link['href'], linkTitle, lat, lon, link['href'].split("/")[1]])
+                goodStuff.append(["http://"+CITY_NAME+".craigslist.org"+link['href'], linkTitle, lat, lon])
 
 mainFile = open("./links"+CITY_NAME.lower()+".csv", 'w')
 thingWriter = csv.writer(mainFile, delimiter=',')
 thingWriter.writerows(goodStuff)
-""", number=1))
+
