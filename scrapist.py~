@@ -59,7 +59,7 @@ for x in range(25):
                             pass
                 except:
                     pass
-                goodStuff.append(["http://"+CITY_NAME+".craigslist.org"+link['href'], linkTitle, lat, lon])
+                goodStuff.append(["http://"+CITY_NAME+".craigslist.org"+link['href'], linkTitle, lat, lon, body)
 
 mainFile = open("./links"+CITY_NAME.lower()+".csv", 'w')
 thingWriter = csv.writer(mainFile, delimiter=',')
