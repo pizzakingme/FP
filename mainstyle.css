@@ -4,8 +4,12 @@
 	font-family: "Open Sans", arial, sans-serif;
 }
 
+img{
+	background: #efefef url("../resources/graydient.jpg") repeat center;
+}
+
 body {
-	/*plz write me*/
+	background: #efefef url("../resources/graydient.jpg") repeat center;
 }
 
 p{
