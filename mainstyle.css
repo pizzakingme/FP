@@ -9,7 +9,7 @@ img{
 }
 
 body {
-	background: #efefef url("../resources/graydient.jpg") repeat center;
+	background: #efefef url("./resources/graydient.jpg") repeat center;
 }
 
 p{
